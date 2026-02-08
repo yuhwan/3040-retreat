@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회비·예산 — 3040 부부 세미나</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      엘사랑교회
+    </a>
+    <button class="nav-menu-btn" aria-label="메뉴 열기">
+      <span class="hamburger"><span></span><span></span><span></span></span>
+    </button>
+  </nav>
+  <div class="nav-overlay"></div>
+  <div class="nav-drawer">
+    <ul class="nav-drawer-links">
+      <li><a href="index.html"><span class="nav-icon">🏠</span> 홈</a></li>
+      <li><a href="recruit.html"><span class="nav-icon">📢</span> 모집 공고</a></li>
+      <li><a href="venue.html"><span class="nav-icon">🏡</span> 장소·이동</a></li>
+      <li><a href="budget.html"><span class="nav-icon">💰</span> 회비·예산</a></li>
+      <li><a href="day1.html"><span class="nav-icon">☀️</span> 1일차 일정</a></li>
+      <li><a href="day2.html"><span class="nav-icon">🌅</span> 2일차 일정</a></li>
+      <li><a href="todo.html"><span class="nav-icon">✅</span> 체크리스트</a></li>
+      <li><a href="transport.html"><span class="nav-icon">🚗</span> 이동 안내</a></li>
+    </ul>
+  </div>
+
+  <main class="page">
+    <div class="container">
+
+      <!-- Hero -->
+      <section class="page-hero fade-up">
+        <span class="page-hero-label">💰 BUDGET</span>
+        <h1>회비·예산</h1>
+        <p>참가 회비 안내와 전체 예산 내역</p>
+      </section>
+
+      <!-- Fee highlight -->
+      <section class="section fade-up" style="animation-delay: 100ms;">
+        <div class="section-title">참가 회비</div>
+
+        <div class="budget-highlights">
+          <div class="budget-highlight primary">
+            <div class="budget-highlight-label">가정당 회비</div>
+            <div class="budget-highlight-value">8만원</div>
+          </div>
+          <div class="budget-highlight">
+            <div class="budget-highlight-label">인원/자녀 수</div>
+            <div class="budget-highlight-value">차등 없음</div>
+          </div>
+        </div>
+
+        <div class="callout callout-blue">
+          <div class="callout-title">💡 회비 안내</div>
+          자녀 수나 인원에 관계없이 <strong>가정당 동일하게 8만원</strong>입니다.
+          1박 2일 숙박, 전 식사(바베큐 + 조식 + 점심)가 포함됩니다.
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <span class="info-card-icon">🏦</span>
+            <span class="info-card-title">입금 안내</span>
+          </div>
+          <p style="font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: 1.7;">
+            회비는 황신애 집사님 계좌로 입금해 주세요.<br>
+            <span class="badge badge-blue" style="margin-top: 8px;">계좌 정보 추후 안내</span>
+          </p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <span class="info-card-icon">🧾</span>
+            <span class="info-card-title">정산 프로세스</span>
+          </div>
+          <div style="font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: 1.8;">
+            <p><strong>1.</strong> 회비 입금 → 황신애 집사님 계좌</p>
+            <p><strong>2.</strong> 각자 지출한 비용은 영수증으로 증빙</p>
+            <p><strong>3.</strong> 영수증을 황신애 집사님에게 제출</p>
+            <p><strong>4.</strong> 황신애 집사님이 정산 내역 정리 (누구에게 얼마)</p>
+            <p><strong>5.</strong> 팀장(김유환)이 잔여금 교회 헌금 송금 후 마무리</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 수입 -->
+      <section class="section fade-up" style="animation-delay: 200ms;">
+        <div class="section-title">수입</div>
+
+        <div class="budget-highlights">
+          <div class="budget-highlight">
+            <div class="budget-highlight-label">회비 (20가정)</div>
+            <div class="budget-highlight-value">160만원</div>
+          </div>
+          <div class="budget-highlight">
+            <div class="budget-highlight-label">교회 지원금</div>
+            <div class="budget-highlight-value">300만원</div>
+          </div>
+        </div>
+
+        <div class="budget-highlights" style="grid-template-columns: 1fr;">
+          <div class="budget-highlight primary">
+            <div class="budget-highlight-label">총 수입</div>
+            <div class="budget-highlight-value">460만원</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 지출 -->
+      <section class="section fade-up" style="animation-delay: 300ms;">
+        <div class="section-title">예산 내역 (지출)</div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>추정 비용</th>
+                <th>상태</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>대관비</strong></td>
+                <td>150만원</td>
+                <td><span class="badge badge-green">확정</span></td>
+              </tr>
+              <tr>
+                <td><strong>바베큐</strong> (1일차 저녁)</td>
+                <td>~80만원</td>
+                <td><span class="badge badge-blue">산정 필요</span></td>
+              </tr>
+              <tr>
+                <td><strong>케이터링 조식</strong> (2일차 아침)</td>
+                <td>~70만원</td>
+                <td><span class="badge badge-blue">확인 중</span></td>
+              </tr>
+              <tr>
+                <td><strong>햄버거 포장</strong> (2일차 점심)</td>
+                <td>~30만원</td>
+                <td><span class="badge badge-blue">추정</span></td>
+              </tr>
+              <tr>
+                <td><strong>간식 / 음료 / 기타</strong></td>
+                <td>~30만원</td>
+                <td><span class="badge badge-blue">추정</span></td>
+              </tr>
+              <tr class="row-total">
+                <td><strong>지출 합계</strong></td>
+                <td><strong>~360만원</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 요약 -->
+      <section class="section fade-up" style="animation-delay: 400ms;">
+        <div class="section-title">예산 요약</div>
+
+        <div class="budget-highlights">
+          <div class="budget-highlight">
+            <div class="budget-highlight-label">총 수입</div>
+            <div class="budget-highlight-value">460만원</div>
+          </div>
+          <div class="budget-highlight">
+            <div class="budget-highlight-label">총 지출</div>
+            <div class="budget-highlight-value">~360만원</div>
+          </div>
+        </div>
+
+        <div class="budget-highlights" style="grid-template-columns: 1fr;">
+          <div class="budget-highlight" style="background: #E8F5EC; border-color: #C8E6D0;">
+            <div class="budget-highlight-label" style="color: var(--color-success);">예비비</div>
+            <div class="budget-highlight-value" style="color: var(--color-success);">~100만원</div>
+          </div>
+        </div>
+
+        <div class="callout callout-muted">
+          잔여 회비 및 예비비는 교회에 헌금합니다.
+        </div>
+      </section>
+
+      <!-- Navigation -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-2xl);">
+        <a href="venue.html" style="font-size: var(--font-size-sm); font-weight: 600;">← 장소·이동</a>
+        <a href="day1.html" style="font-size: var(--font-size-sm); font-weight: 600;">1일차 일정 →</a>
+      </div>
+
+      <footer class="page-footer">
+        <p>엘사랑교회 3040 부부 세미나 준비팀</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
