@@ -763,6 +763,16 @@ img {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.budget-highlight.accent {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
+}
+
+.budget-highlight.accent .budget-highlight-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 /* --- Callout --- */
 .callout {
   padding: 16px 18px;
